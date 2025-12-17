@@ -1,0 +1,21 @@
+.button-dark {
+    -fx-background-color: linear-gradient(to bottom, #7A3F91, #C59DD9);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-cursor: hand;
+    -fx-padding: 8 16 8 16;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0.5, 0, 1);
+}
+
+.button-dark:hover {
+    -fx-background-color: linear-gradient(to bottom, #C59DD9, #E5CCF0);
+    -fx-text-fill: #2B0D3E;
+}
+
+.button-dark:pressed {
+    -fx-background-color: linear-gradient(to bottom, #2B0D3E, #7A3F91);
+    -fx-text-fill: white;
+}

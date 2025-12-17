@@ -1,0 +1,89 @@
+/* ===== Exit Button (Top Right) ===== */
+.exit-button {
+    -fx-background-color: white;
+    -fx-text-fill: #2B0D3E;
+    -fx-font-weight: bold;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6 12;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 1);
+    -fx-font-size: 12px;
+}
+
+.exit-button:hover {
+    -fx-background-color: #F2EAF7;
+    -fx-text-fill: #7A3F91;
+    -fx-border-color: #C59DD9;
+}
+
+/* ===== Back Button (Top Left) ===== */
+.back-button {
+    -fx-background-color: white;
+    -fx-text-fill: #2B0D3E;
+    -fx-font-weight: bold;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6 12;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 1);
+    -fx-font-size: 12px;
+}
+
+.back-button:hover {
+    -fx-background-color: #F2EAF7;
+    -fx-text-fill: #7A3F91;
+    -fx-border-color: #C59DD9;
+}
+
+/* ===== Rounded Anchor Pane ===== */
+.ancor-pane.roundshape {
+    -fx-background-color: white;
+    -fx-border-color: #C59DD9;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-border-width: 2;
+}
+
+/* ===== Tabs with Your Theme ===== */
+.tab-pane > .tab-header-area {
+    -fx-background-color: #F2EAF7;
+    -fx-padding: 10 10 0 10;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-background-color: #F2EAF7;
+    -fx-border-color: transparent transparent #C59DD9 transparent;
+    -fx-padding: 8 20;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10 10 0 0;
+    -fx-text-fill: #2B0D3E;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:hover {
+    -fx-background-color: #C59DD9;
+    -fx-text-fill: white;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+    -fx-text-fill: #7A3F91;
+    -fx-border-color: #C59DD9 #C59DD9 transparent #C59DD9;
+    -fx-border-width: 1px;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.tab-pane .tab-content-area {
+    -fx-background-color: white;
+    -fx-border-color: #C59DD9;
+    -fx-border-width: 1px;
+    -fx-border-radius: 0 0 10 10;
+    -fx-padding: 10;
+}
+
+/* Equal width tabs */
+.tab-pane .tab-header-area .tab {
+    -fx-min-width: 150px;
+}
